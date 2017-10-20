@@ -1,0 +1,413 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+
+    
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    font-size: 28;
+    color: #666666;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #ebebeb;
+}
+
+#heading {
+    height: 70px;
+    left:0;
+    top:0;
+    overflow: auto;
+    clear: both;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#box{
+    position: relative;
+    top: 0;
+    left:0;
+    padding-left:20px;
+    padding-right:20px;
+    z-index: 10;
+    color: white;
+}
+header{
+   width: 960px;
+   font-size: 28 px;
+   line-height: 70px;
+   margin: auto;
+   color: #666666;
+    
+}
+
+.space-footer{
+    margin-bottom: 50%;
+}
+
+a{
+    color: #666666;
+    text-decoration: none;
+}
+footer{
+    position: fixed;
+    font-size:15px;
+    width: 100%;
+    height: 8%;
+    line-height: 60px;
+    bottom:0;
+    text-align:center;
+    background-color: #666666;
+    color: #ffffff;
+    
+    
+}
+.jay-title{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; 
+    
+}
+
+h2{
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; 
+}
+
+
+
+
+.clearfix{
+    margin: auto;
+    width: 960px;
+}
+
+.container{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10%;
+    display: inline-block;
+}
+
+.subtitle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+#profilepic {
+    float: left;
+    width:200px;
+    height:300.4px;  
+    margin-right: 10px;
+}
+
+#aboutme{
+    position: relative;
+    width: 65%;
+    margin: auto;
+    margin-right: 2%;
+    margin-bottom:6%;
+
+}
+
+.text-body{
+
+}
+
+#connectme{
+    position: absolute;
+    text-align: center;
+    width: 25%;
+
+    margin-left:3%;
+}
+
+.icon {
+    text-align: center;
+    height: 60px;
+    width: 60px;
+}
+#center{
+    margin: auto;
+}
+
+
+.alignleft{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.alignright{
+    float: right;
+}
+
+#bar{
+    display: block;
+    height:5px;
+    bottom: 70px;
+}
+
+.text-titles{
+    color : #666666;
+
+}
+
+.pContent:hover{
+    background-color: rgba(179, 179, 179, 0.534);
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width:100%;
+    color: white;
+    padding:14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#message-box{
+    padding-bottom: 170px;
+}
+
+input[type=submit]:hover {
+    background-color: #295f5c;
+}
+
+.pContent {
+    margin: 2%;
+    width: 40%;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 6%;
+}
+.pSubtitles{
+    position: absolute;
+    bottom: 10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 100%
+}
+
+.theme-backgroundcolor{
+    background-color: #4aaaa5;
+}
+
+.theme-textcolor{
+    color: #4aaaa5;
+}
+
+.pimg-1{
+    background-image: url("../images/image-1.jpeg")
+}
+
+.pimg-2{
+    background-image: url("../images/linkeden.png")
+}
+
+@media screen and (max-width: 980px){
+    header{
+        width: 100%;
+        font-size: 28 px;
+        line-height: 70px;
+        margin: auto;
+        color: #666666;
+         
+     }
+    #profilepic {
+        position: relative;
+        left: 26%;
+        width:200px;
+        height:300.4px;  
+        margin: 10px;  
+        
+    }   
+
+    .container{
+        box-sizing: border-box;
+        background-color: #ffffff;
+        padding: 10px;
+        margin-bottom: 10%;
+    }
+    #aboutme{
+        width: 60%;
+        margin-left:3%;
+        margin-bottom:10%;
+    }
+    #connectme{
+        text-align: center;
+        width: 28%;
+        
+    }
+    .clearfix{
+        content:"";
+        margin: auto;
+        clear: both;
+        overflow: auto;
+        width: 100%;
+    }
+
+    .text-body{
+        clear:both;
+    }
+    .pContent{
+        float:none;
+        width: 50%;
+        left:25%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header{
+        width: 100%;
+        font-size: 28 px;
+        line-height: 70px;
+        margin: auto;
+        color: #666666;
+         
+     }
+     .clearfix{
+        content:"";
+        margin: auto;
+        clear: both;
+        overflow: auto;
+        width: 100%;
+    }
+    #profilepic {
+        position: static;
+        width:200px;
+        height:300.4px;
+        margin:auto;  
+        margin-right: 10px;
+        
+    }   
+    .text-body{
+       display:inline;
+    }
+
+    #aboutme{
+        width: 80%;
+        margin-left:10%;
+        margin-bottom: 0%;
+    }
+    
+    #connectme{
+        position: relative;
+        text-align: center;
+        width: 80%;
+        margin-left:10%;
+        margin-top: 3%;
+        margin-bottom: 12%;
+    }
+
+    .container{
+        box-sizing: border-box;
+        background-color: #ffffff;
+        padding: 10px;
+        margin-bottom: 10%;
+    }
+    .pContent{
+        float: left;
+        left:6%;
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    header{
+        width: 100%;
+        font-size: 28 px;
+        line-height: 70px;
+        margin: auto;
+        color: #666666;
+         
+     }
+     #profilepic,
+     #aboutme
+     {
+         float: none;
+     }
+     .clearfix{
+        content:"";
+        margin: auto;
+        clear: both;
+        overflow: auto;
+        width: 100%;
+    }
+    .text-body{
+        display: block;
+        clear:both;
+       
+    }
+    .container{
+        width: 80%;
+    }
+    #aboutme{
+        width:80%;
+    }
+    #profilepic {
+        position: relative;
+        margin-left: 30%;
+        width:200px;
+        height:300.4px;  
+        margin: 10px;
+        
+    } 
+    .space-footer{
+        margin-bottom: 15%;
+    }
+    .pContent{
+        float: none;
+        width:50%;
+        margin-left: 20%;
+    }
+}
